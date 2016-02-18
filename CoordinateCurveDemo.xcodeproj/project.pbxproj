@@ -15,6 +15,7 @@
 		08DC2D8C1C755261008FE64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DC2D8A1C755261008FE64A /* LaunchScreen.storyboard */; };
 		08DC2D971C755261008FE64A /* CoordinateCurveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2D961C755261008FE64A /* CoordinateCurveDemoTests.m */; };
 		08DC2DA21C755261008FE64A /* CoordinateCurveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2DA11C755261008FE64A /* CoordinateCurveDemoUITests.m */; };
+		08DC2DB11C755394008FE64A /* JDataCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2DB01C755394008FE64A /* JDataCurveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		08DC2D9D1C755261008FE64A /* CoordinateCurveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinateCurveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DC2DA11C755261008FE64A /* CoordinateCurveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinateCurveDemoUITests.m; sourceTree = "<group>"; };
 		08DC2DA31C755261008FE64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DC2DAF1C755394008FE64A /* JDataCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDataCurveView.h; sourceTree = "<group>"; };
+		08DC2DB01C755394008FE64A /* JDataCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDataCurveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		08DC2D7B1C755261008FE64A /* CoordinateCurveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08DC2DAF1C755394008FE64A /* JDataCurveView.h */,
+				08DC2DB01C755394008FE64A /* JDataCurveView.m */,
 				08DC2D7F1C755261008FE64A /* AppDelegate.h */,
 				08DC2D801C755261008FE64A /* AppDelegate.m */,
 				08DC2D821C755261008FE64A /* ViewController.h */,
@@ -273,6 +278,7 @@
 				08DC2D841C755261008FE64A /* ViewController.m in Sources */,
 				08DC2D811C755261008FE64A /* AppDelegate.m in Sources */,
 				08DC2D7E1C755261008FE64A /* main.m in Sources */,
+				08DC2DB11C755394008FE64A /* JDataCurveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
