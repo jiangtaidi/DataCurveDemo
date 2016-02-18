@@ -26,6 +26,12 @@
     [self testDataCurveView2];
 }
 
+-(void)dealloc
+{
+    [_timer invalidate];
+    _timer = nil;
+}
+
 -(void)testDataCurveView1
 {
     //随机参数数据
