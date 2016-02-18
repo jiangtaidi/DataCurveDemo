@@ -86,7 +86,11 @@
 
     if (_isDynamicRefreshData) {
         //创建串行队列
-        _queue = dispatch_queue_create("com.draw.dataImg", DISPATCH_QUEUE_SERIAL);
+        if(!_queue)
+        {
+            _queue = dispatch_queue_create("com.draw.dataImg", DISPATCH_QUEUE_SERIAL);
+
+        }
         queue = _queue;
     }
     else
